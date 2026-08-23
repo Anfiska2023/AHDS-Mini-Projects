@@ -1,0 +1,1938 @@
+(PCB DIP14PIC
+ (description
+  (timeStamp "2026 02 12 18 53 37")
+  (program "CAPTURE.EXE" (Version "23.1-2023"))
+  (source "Original data from OrCAD/CAPTURE schematic")
+  (title "")
+  (date "Thursday, February 12, 2026")
+  (document "E:\\LYBRARYES\\ANDRE\\PROJETS\\IDEAY\\DIP14PIC.DSN")
+  (revision "")
+  (organization "")
+  (address1 "")
+  (address2 "")
+  (address3 "")
+  (address4 "")
+  (partvaluecombine "{Value}")
+  (pcbfootprintcombine "{PCB Footprint}"))
+ (structure )
+ (placement
+  (component CON2
+   (place J2
+    (property 
+     (timestamp 00FAD049)
+     ("Source Package" CON2)
+     (Value "SWITCH ON/OFF")
+     ("PCB Footprint" MOLEX_SL_2P))))
+  (component LED55B/TO_0
+   (place D10
+    (property 
+     (timestamp 00FAD0D3)
+     ("Source Package" LED55B/TO_0)
+     (Value "LED pin2")
+     ("PCB Footprint" LEDTH)))
+   (place D1
+    (property 
+     (timestamp 00003600)
+     ("Source Package" LED55B/TO_0)
+     (Value "LED pin2")
+     ("PCB Footprint" LEDTH)))
+   (place D2
+    (property 
+     (timestamp 00005DD8)
+     ("Source Package" LED55B/TO_0)
+     (Value "LED pin11")
+     ("PCB Footprint" LEDTH)))
+   (place D3
+    (property 
+     (timestamp 0000557E)
+     ("Source Package" LED55B/TO_0)
+     (Value "LED pin3")
+     ("PCB Footprint" LEDTH)))
+   (place D4
+    (property 
+     (timestamp 00005E00)
+     ("Source Package" LED55B/TO_0)
+     (Value "LED pin10")
+     ("PCB Footprint" LEDTH)))
+   (place D5
+    (property 
+     (timestamp 00005652)
+     ("Source Package" LED55B/TO_0)
+     (Value "LED pin5")
+     ("PCB Footprint" LEDTH)))
+   (place D6
+    (property 
+     (timestamp 00005E28)
+     ("Source Package" LED55B/TO_0)
+     (Value "LED pin9")
+     ("PCB Footprint" LEDTH)))
+   (place D7
+    (property 
+     (timestamp 0000567A)
+     ("Source Package" LED55B/TO_0)
+     (Value "LED pin6")
+     ("PCB Footprint" LEDTH)))
+   (place D8
+    (property 
+     (timestamp 00005E50)
+     ("Source Package" LED55B/TO_0)
+     (Value "LED pin8")
+     ("PCB Footprint" LEDTH)))
+   (place D9
+    (property 
+     (timestamp 00005732)
+     ("Source Package" LED55B/TO_0)
+     (Value "LED pin7")
+     ("PCB Footprint" LEDTH))))
+  (component "74HC132 (SO14)"
+   (place U1
+    (property 
+     (timestamp 00001C10)
+     ("EMD P/N" "EMD P/N")
+     ("Source Package" "74HC132 (SO14)")
+     (Value 74HC132)
+     ("PCB Footprint" SO14)))
+   (place U2
+    (property 
+     (timestamp 000029E6)
+     ("EMD P/N" "EMD P/N")
+     ("Source Package" "74HC132 (SO14)")
+     (Value 74HC132)
+     ("PCB Footprint" SO14)))
+   (place U3
+    (property 
+     (timestamp 00003200)
+     ("EMD P/N" "EMD P/N")
+     ("Source Package" "74HC132 (SO14)")
+     (Value 74HC132)
+     ("PCB Footprint" SO14))))
+  (component "CAP NP"
+   (place C20
+    (property 
+     (timestamp 00FB2ADA)
+     ("Source Package" "CAP NP")
+     (Value 10uF)
+     ("PCB Footprint" 0603)))
+   (place C21
+    (property 
+     (timestamp 00FB41A1)
+     ("Source Package" "CAP NP")
+     (Value 100nF)
+     ("PCB Footprint" 0603)))
+   (place C1
+    (property 
+     (timestamp 00001C72)
+     ("Source Package" "CAP NP")
+     (Value 470nF)
+     ("PCB Footprint" 0603)))
+   (place C2
+    (property 
+     (timestamp 000030A8)
+     ("Source Package" "CAP NP")
+     (Value 470nF)
+     ("PCB Footprint" 0603)))
+   (place C3
+    (property 
+     (timestamp 000022E4)
+     ("Source Package" "CAP NP")
+     (Value 470nF)
+     ("PCB Footprint" 0603)))
+   (place C4
+    (property 
+     (timestamp 00003182)
+     ("Source Package" "CAP NP")
+     (Value 470nF)
+     ("PCB Footprint" 0603)))
+   (place C5
+    (property 
+     (timestamp 000024F2)
+     ("Source Package" "CAP NP")
+     (Value 470nF)
+     ("PCB Footprint" 0603)))
+   (place C6
+    (property 
+     (timestamp 0000325C)
+     ("Source Package" "CAP NP")
+     (Value 470nF)
+     ("PCB Footprint" 0603)))
+   (place C7
+    (property 
+     (timestamp 00002968)
+     ("Source Package" "CAP NP")
+     (Value 470nF)
+     ("PCB Footprint" 0603)))
+   (place C8
+    (property 
+     (timestamp 00004CC0)
+     ("Source Package" "CAP NP")
+     (Value 470nF)
+     ("PCB Footprint" 0603)))
+   (place C9
+    (property 
+     (timestamp 00002A42)
+     ("Source Package" "CAP NP")
+     (Value 470nF)
+     ("PCB Footprint" 0603)))
+   (place C10
+    (property 
+     (timestamp 00002B1C)
+     ("Source Package" "CAP NP")
+     (Value 470nF)
+     ("PCB Footprint" 0603)))
+   (place C11
+    (property 
+     (timestamp 00FACDF2)
+     ("Source Package" "CAP NP")
+     (Value 100uF)
+     ("PCB Footprint" 0603)))
+   (place C12
+    (property 
+     (timestamp 00FACD02)
+     ("Source Package" "CAP NP")
+     (Value 100uF)
+     ("PCB Footprint" 0603)))
+   (place C13
+    (property 
+     (timestamp 00FAB615)
+     ("Source Package" "CAP NP")
+     (Value 100nF)
+     ("PCB Footprint" 0603)))
+   (place C14
+    (property 
+     (timestamp 00FAB625)
+     ("Source Package" "CAP NP")
+     (Value 10uF)
+     ("PCB Footprint" 0603)))
+   (place C15
+    (property 
+     (timestamp 00FADA9F)
+     ("Source Package" "CAP NP")
+     (Value 100nf)
+     ("PCB Footprint" 0603)))
+   (place C16
+    (property 
+     (timestamp 00FADAAF)
+     ("Source Package" "CAP NP")
+     (Value 100nF)
+     ("PCB Footprint" 0603)))
+   (place C17
+    (property 
+     (timestamp 00FAE229)
+     ("Source Package" "CAP NP")
+     (Value 10uF)
+     ("PCB Footprint" 0603)))
+   (place C18
+    (property 
+     (timestamp 00FAF8F6)
+     ("Source Package" "CAP NP")
+     (Value 10uF)
+     ("PCB Footprint" 0603)))
+   (place C19
+    (property 
+     (timestamp 00FB2AC6)
+     ("Source Package" "CAP NP")
+     (Value 100nf)
+     ("PCB Footprint" 0603))))
+  (component CON5_1
+   (place J4
+    (property 
+     (timestamp 00FB2E0E)
+     ("Source Package" CON5_1)
+     (Value "PICKIT Programming")
+     ("PCB Footprint" MOLEX_SL_5P))))
+  (component CON2_0
+   (place J3
+    (property 
+     (timestamp 00FAD4BA)
+     ("Source Package" CON2_0)
+     (Value power)
+     ("PCB Footprint" CON2_200))))
+  (component CON6A
+   (place CH10
+    (property 
+     (timestamp 000030FC)
+     ("Source Package" CON6A)
+     (Value CON6A)
+     ("PCB Footprint" IDC6P)))
+   (place CH11
+    (property 
+     (timestamp 000031D6)
+     ("Source Package" CON6A)
+     (Value CON6A)
+     ("PCB Footprint" IDC6P)))
+   (place CH2
+    (property 
+     (timestamp 00001BEA)
+     ("Source Package" CON6A)
+     (Value CON6A)
+     ("PCB Footprint" IDC6P)))
+   (place CH3
+    (property 
+     (timestamp 0000224E)
+     ("Source Package" CON6A)
+     (Value CON6A)
+     ("PCB Footprint" IDC6P)))
+   (place CH5
+    (property 
+     (timestamp 0000245C)
+     ("Source Package" CON6A)
+     (Value CON6A)
+     ("PCB Footprint" IDC6P)))
+   (place CH6
+    (property 
+     (timestamp 000028D2)
+     ("Source Package" CON6A)
+     (Value CON6A)
+     ("PCB Footprint" IDC6P)))
+   (place CH7
+    (property 
+     (timestamp 000029BC)
+     ("Source Package" CON6A)
+     (Value CON6A)
+     ("PCB Footprint" IDC6P)))
+   (place CH8
+    (property 
+     (timestamp 00002A96)
+     ("Source Package" CON6A)
+     (Value CON6A)
+     ("PCB Footprint" IDC6P)))
+   (place CH9
+    (property 
+     (timestamp 00003012)
+     ("Source Package" CON6A)
+     (Value CON6A)
+     ("PCB Footprint" IDC6P))))
+  (component RES
+   (place R25
+    (property 
+     (timestamp 00005E10)
+     ("Source Package" RES)
+     (Value 1K)
+     ("PCB Footprint" 0603)))
+   (place R26
+    (property 
+     (timestamp 00005642)
+     ("Source Package" RES)
+     (Value 1K)
+     ("PCB Footprint" 0603)))
+   (place R27
+    (property 
+     (timestamp 00005E38)
+     ("Source Package" RES)
+     (Value 1K)
+     ("PCB Footprint" 0603)))
+   (place R28
+    (property 
+     (timestamp 0000566A)
+     ("Source Package" RES)
+     (Value 1K)
+     ("PCB Footprint" 0603)))
+   (place R29
+    (property 
+     (timestamp 00005E60)
+     ("Source Package" RES)
+     (Value 1K)
+     ("PCB Footprint" 0603)))
+   (place R1
+    (property 
+     (timestamp 000063E9)
+     ("Source Package" RES)
+     (Value 100R)
+     ("PCB Footprint" 0603)))
+   (place R30
+    (property 
+     (timestamp 00002A7A)
+     ("Source Package" RES)
+     (Value 10K)
+     ("PCB Footprint" 0603)))
+   (place R31
+    (property 
+     (timestamp 00005722)
+     ("Source Package" RES)
+     (Value 1K)
+     ("PCB Footprint" 0603)))
+   (place R2
+    (property 
+     (timestamp 00001BBE)
+     ("Source Package" RES)
+     (Value 10K)
+     ("PCB Footprint" 0603)))
+   (place R32
+    (property 
+     (timestamp 00FAD0E3)
+     ("Source Package" RES)
+     (Value 3k)
+     ("PCB Footprint" 0603)))
+   (place R3
+    (property 
+     (timestamp 00002FF6)
+     ("Source Package" RES)
+     (Value 10K)
+     ("PCB Footprint" 0603)))
+   (place R33
+    (property 
+     (timestamp 00FB27F7)
+     ("Source Package" RES)
+     (Value NU)
+     ("PCB Footprint" 0603)))
+   (place R4
+    (property 
+     (timestamp 0000642D)
+     ("Source Package" RES)
+     (Value 100R)
+     ("PCB Footprint" 0603)))
+   (place R34
+    (property 
+     (timestamp 00FB280F)
+     ("Source Package" RES)
+     (Value 100k)
+     ("PCB Footprint" 0603)))
+   (place R5
+    (property 
+     (timestamp 0000647D)
+     ("Source Package" RES)
+     (Value 100R)
+     ("PCB Footprint" 0603)))
+   (place R35
+    (property 
+     (timestamp 00FB2821)
+     ("Source Package" RES)
+     (Value 100k)
+     ("PCB Footprint" 0603)))
+   (place R6
+    (property 
+     (timestamp 000066AD)
+     ("Source Package" RES)
+     (Value 100R)
+     ("PCB Footprint" 0603)))
+   (place R36
+    (property 
+     (timestamp 00FB4187)
+     ("Source Package" RES)
+     (Value 100k)
+     ("PCB Footprint" 0603)))
+   (place R7
+    (property 
+     (timestamp 00002232)
+     ("Source Package" RES)
+     (Value 10K)
+     ("PCB Footprint" 0603)))
+   (place R8
+    (property 
+     (timestamp 000030E0)
+     ("Source Package" RES)
+     (Value 10K)
+     ("PCB Footprint" 0603)))
+   (place R9
+    (property 
+     (timestamp 000064CD)
+     ("Source Package" RES)
+     (Value 100R)
+     ("PCB Footprint" 0603)))
+   (place R10
+    (property 
+     (timestamp 000066FD)
+     ("Source Package" RES)
+     (Value 100R)
+     ("PCB Footprint" 0603)))
+   (place R11
+    (property 
+     (timestamp 0000651D)
+     ("Source Package" RES)
+     (Value 100R)
+     ("PCB Footprint" 0603)))
+   (place R12
+    (property 
+     (timestamp 0000674D)
+     ("Source Package" RES)
+     (Value 100R)
+     ("PCB Footprint" 0603)))
+   (place R13
+    (property 
+     (timestamp 00002440)
+     ("Source Package" RES)
+     (Value 10K)
+     ("PCB Footprint" 0603)))
+   (place R14
+    (property 
+     (timestamp 000031BA)
+     ("Source Package" RES)
+     (Value 10K)
+     ("PCB Footprint" 0603)))
+   (place R15
+    (property 
+     (timestamp 0000656D)
+     ("Source Package" RES)
+     (Value 100R)
+     ("PCB Footprint" 0603)))
+   (place R16
+    (property 
+     (timestamp 0000679D)
+     ("Source Package" RES)
+     (Value 100R)
+     ("PCB Footprint" 0603)))
+   (place R17
+    (property 
+     (timestamp 000065BD)
+     ("Source Package" RES)
+     (Value 100R)
+     ("PCB Footprint" 0603)))
+   (place R18
+    (property 
+     (timestamp 000067ED)
+     ("Source Package" RES)
+     (Value 100R)
+     ("PCB Footprint" 0603)))
+   (place R19
+    (property 
+     (timestamp 000028B6)
+     ("Source Package" RES)
+     (Value 10K)
+     ("PCB Footprint" 0603)))
+   (place R20
+    (property 
+     (timestamp 00004BF8)
+     ("Source Package" RES)
+     (Value 10K)
+     ("PCB Footprint" 0603)))
+   (place R21
+    (property 
+     (timestamp 00005DE8)
+     ("Source Package" RES)
+     (Value 1K)
+     ("PCB Footprint" 0603)))
+   (place R22
+    (property 
+     (timestamp 000035EC)
+     ("Source Package" RES)
+     (Value 1K)
+     ("PCB Footprint" 0603)))
+   (place R23
+    (property 
+     (timestamp 000029A0)
+     ("Source Package" RES)
+     (Value 10K)
+     ("PCB Footprint" 0603)))
+   (place R24
+    (property 
+     (timestamp 0000556E)
+     ("Source Package" RES)
+     (Value 1K)
+     ("PCB Footprint" 0603))))
+  (component PIC16F18326
+   (place U4
+    (property 
+     (timestamp 00FAB66D)
+     ("Source Package" PIC16F18326)
+     (Value PIC16F18326)
+     ("PCB Footprint" "3M_214-3339-00-0602J"))))
+  (component "SWITCH-B3F_4055"
+   (place SWPIN10
+    (property 
+     (timestamp 0000310E)
+     ("Source Package" "SWITCH-B3F_4055")
+     (Value "SWITCH-B3F_4055")
+     ("PCB Footprint" "SWITCH-FSM")))
+   (place SWPIN11
+    (property 
+     (timestamp 000031E8)
+     ("Source Package" "SWITCH-B3F_4055")
+     (Value "SWITCH-B3F_4055")
+     ("PCB Footprint" "SWITCH-FSM")))
+   (place SWPIN2
+    (property 
+     (timestamp 00001BFC)
+     ("Source Package" "SWITCH-B3F_4055")
+     (Value "SWITCH-B3F_4055")
+     ("PCB Footprint" "SWITCH-FSM")))
+   (place SWPIN3
+    (property 
+     (timestamp 00002260)
+     ("Source Package" "SWITCH-B3F_4055")
+     (Value "SWITCH-B3F_4055")
+     ("PCB Footprint" "SWITCH-FSM")))
+   (place SWPIN5
+    (property 
+     (timestamp 0000246E)
+     ("Source Package" "SWITCH-B3F_4055")
+     (Value "SWITCH-B3F_4055")
+     ("PCB Footprint" "SWITCH-FSM")))
+   (place SWPIN6
+    (property 
+     (timestamp 000028E4)
+     ("Source Package" "SWITCH-B3F_4055")
+     (Value "SWITCH-B3F_4055")
+     ("PCB Footprint" "SWITCH-FSM")))
+   (place SWPIN7
+    (property 
+     (timestamp 000029CE)
+     ("Source Package" "SWITCH-B3F_4055")
+     (Value "SWITCH-B3F_4055")
+     ("PCB Footprint" "SWITCH-FSM")))
+   (place SWPIN8
+    (property 
+     (timestamp 00002AA8)
+     ("Source Package" "SWITCH-B3F_4055")
+     (Value "SWITCH-B3F_4055")
+     ("PCB Footprint" "SWITCH-FSM")))
+   (place SWPIN9
+    (property 
+     (timestamp 00003024)
+     ("Source Package" "SWITCH-B3F_4055")
+     (Value "SWITCH-B3F_4055")
+     ("PCB Footprint" "SWITCH-FSM")))
+   (place SWPIN4/rest
+    (property 
+     (timestamp 00004C14)
+     ("Source Package" "SWITCH-B3F_4055")
+     (Value "SWITCH-B3F_4055")
+     ("PCB Footprint" "SWITCH-FSM"))))
+  (component "SMT_BAS70-04_0"
+   (place CR10
+    (property 
+     (timestamp 00FA9AAD)
+     ("EMD P/N" "EMD P/N")
+     (CURRENT A)
+     ("Source Package" "SMT_BAS70-04_0")
+     (VOLT 70V)
+     (Value "BAS70-04")
+     (I 200mA)
+     ("PCB Footprint" SOT23)))
+   (place CR11
+    (property 
+     (timestamp 00FA99C7)
+     ("EMD P/N" "EMD P/N")
+     (CURRENT A)
+     ("Source Package" "SMT_BAS70-04_0")
+     (VOLT 70V)
+     (Value "BAS70-04")
+     (I 200mA)
+     ("PCB Footprint" SOT23)))
+   (place CR12
+    (property 
+     (timestamp 00FA9ADB)
+     ("EMD P/N" "EMD P/N")
+     (CURRENT A)
+     ("Source Package" "SMT_BAS70-04_0")
+     (VOLT 70V)
+     (Value "BAS70-04")
+     (I 200mA)
+     ("PCB Footprint" SOT23)))
+   (place CR1
+    (property 
+     (timestamp 00FA9A23)
+     ("EMD P/N" "EMD P/N")
+     (CURRENT A)
+     ("Source Package" "SMT_BAS70-04_0")
+     (VOLT 70V)
+     (Value "BAS70-04")
+     (I 200mA)
+     ("PCB Footprint" SOT23)))
+   (place CR2
+    (property 
+     (timestamp 00FA993D)
+     ("EMD P/N" "EMD P/N")
+     (CURRENT A)
+     ("Source Package" "SMT_BAS70-04_0")
+     (VOLT 70V)
+     (Value "BAS70-04")
+     (I 200mA)
+     ("PCB Footprint" SOT23)))
+   (place CR3
+    (property 
+     (timestamp 00FA9B09)
+     ("EMD P/N" "EMD P/N")
+     (CURRENT A)
+     ("Source Package" "SMT_BAS70-04_0")
+     (VOLT 70V)
+     (Value "BAS70-04")
+     (I 200mA)
+     ("PCB Footprint" SOT23)))
+   (place CR4
+    (property 
+     (timestamp 00FA9A51)
+     ("EMD P/N" "EMD P/N")
+     (CURRENT A)
+     ("Source Package" "SMT_BAS70-04_0")
+     (VOLT 70V)
+     (Value "BAS70-04")
+     (I 200mA)
+     ("PCB Footprint" SOT23)))
+   (place CR5
+    (property 
+     (timestamp 00FA996B)
+     ("EMD P/N" "EMD P/N")
+     (CURRENT A)
+     ("Source Package" "SMT_BAS70-04_0")
+     (VOLT 70V)
+     (Value "BAS70-04")
+     (I 200mA)
+     ("PCB Footprint" SOT23)))
+   (place CR6
+    (property 
+     (timestamp 00FA9B37)
+     ("EMD P/N" "EMD P/N")
+     (CURRENT A)
+     ("Source Package" "SMT_BAS70-04_0")
+     (VOLT 70V)
+     (Value "BAS70-04")
+     (I 200mA)
+     ("PCB Footprint" SOT23)))
+   (place CR7
+    (property 
+     (timestamp 00FA9A7F)
+     ("EMD P/N" "EMD P/N")
+     (CURRENT A)
+     ("Source Package" "SMT_BAS70-04_0")
+     (VOLT 70V)
+     (Value "BAS70-04")
+     (I 200mA)
+     ("PCB Footprint" SOT23)))
+   (place CR8
+    (property 
+     (timestamp 00FA9999)
+     ("EMD P/N" "EMD P/N")
+     (CURRENT A)
+     ("Source Package" "SMT_BAS70-04_0")
+     (VOLT 70V)
+     (Value "BAS70-04")
+     (I 200mA)
+     ("PCB Footprint" SOT23)))
+   (place CR9
+    (property 
+     (timestamp 00FA99F5)
+     ("EMD P/N" "EMD P/N")
+     (CURRENT A)
+     ("Source Package" "SMT_BAS70-04_0")
+     (VOLT 70V)
+     (Value "BAS70-04")
+     (I 200mA)
+     ("PCB Footprint" SOT23))))
+  (component "TEST POINT"
+   (place PIN10
+    (property 
+     (timestamp 000067FB)
+     ("Source Package" "TEST POINT")
+     (Value PIN9)
+     ("PCB Footprint" TEST_POINT)))
+   (place TP11
+    (property 
+     (timestamp 0000675B)
+     ("Source Package" "TEST POINT")
+     (Value PIN11)
+     ("PCB Footprint" TEST_POINT)))
+   (place TP12
+    (property 
+     (timestamp 0000670B)
+     ("Source Package" "TEST POINT")
+     (Value PIN12)
+     ("PCB Footprint" TEST_POINT)))
+   (place TP13
+    (property 
+     (timestamp 000066BB)
+     ("Source Package" "TEST POINT")
+     (Value PIN13)
+     ("PCB Footprint" TEST_POINT)))
+   (place TP14
+    (property 
+     (timestamp 0000666B)
+     ("Source Package" "TEST POINT")
+     (Value GND/PIN14)
+     ("PCB Footprint" TEST_POINT)))
+   (place TP1
+    (property 
+     (timestamp 0000661B)
+     ("Source Package" "TEST POINT")
+     (Value Vcc/PIN1)
+     ("PCB Footprint" TEST_POINT)))
+   (place TP2
+    (property 
+     (timestamp 000063CF)
+     ("Source Package" "TEST POINT")
+     (Value PIN2)
+     ("PCB Footprint" TEST_POINT)))
+   (place TP3
+    (property 
+     (timestamp 0000643B)
+     ("Source Package" "TEST POINT")
+     (Value PIN3)
+     ("PCB Footprint" TEST_POINT)))
+   (place TP4
+    (property 
+     (timestamp 0000648B)
+     ("Source Package" "TEST POINT")
+     (Value PIN4)
+     ("PCB Footprint" TEST_POINT)))
+   (place TP5
+    (property 
+     (timestamp 000064DB)
+     ("Source Package" "TEST POINT")
+     (Value PIN5)
+     ("PCB Footprint" TEST_POINT)))
+   (place TP6
+    (property 
+     (timestamp 0000652B)
+     ("Source Package" "TEST POINT")
+     (Value PIN6)
+     ("PCB Footprint" TEST_POINT)))
+   (place TP7
+    (property 
+     (timestamp 0000657B)
+     ("Source Package" "TEST POINT")
+     (Value PIN7)
+     ("PCB Footprint" TEST_POINT)))
+   (place TP8
+    (property 
+     (timestamp 000065CB)
+     ("Source Package" "TEST POINT")
+     (Value PIN8)
+     ("PCB Footprint" TEST_POINT)))
+   (place TP9
+    (property 
+     (timestamp 000067AB)
+     ("Source Package" "TEST POINT")
+     (Value TP10)
+     ("PCB Footprint" TEST_POINT))))
+  (component CON4A
+   (place CH4
+    (property 
+     (timestamp 00004C4E)
+     ("Source Package" CON4A)
+     (Value CON4A)
+     ("PCB Footprint" IDC_HEADER4P))))
+  (component CON14_0
+   (place J1
+    (property 
+     (timestamp 00006A10)
+     ("Source Package" CON14_0)
+     (Value CON14)
+     ("PCB Footprint" CON14_200)))))
+ (library
+  (image RES
+   (property 
+    (sourcelib "C:\\PROGRAM FILES\\ORCAD\\CAPTURE\\LIBRARY\\OLDLIBS\\PSPICE.OLB"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" LP10)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N240640)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image "SMT_BAS70-04_0"
+   (property 
+    (sourcelib D:\\PROJETS24\\ORCADES\\P02401A1.DSN)
+    (CURRENT A)
+    ("EMD P/N" "EMD P/N")
+    (I 200mA)
+    (VOLT 70V))
+   (pin 999 1
+    (property 
+     (pinname A)
+     (pintype 4)
+     (Name A)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname K)
+     (pintype 4)
+     (Name K)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" Vcc)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname K/A)
+     (pintype 4)
+     (Name K/A)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PIN6)
+     (Order 2)
+     ("Is No Connect" False))))
+  (image "SWITCH-B3F_4055"
+   (property 
+    (sourcelib "D:\\PROJETS\\DEVELOPPEMENT MATERIEL\\LIB-ORCAD\\MISC.OLB"))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)
+     (Name 3)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N12564)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)
+     (Name 4)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N12564)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 3)
+     ("Is No Connect" False))))
+  (image "TEST POINT"
+   (property 
+    (sourcelib E:\\LYBRARYES\\LIB_ORCAD\\CONNECTOR.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N26631)
+     (Order 0)
+     ("Is No Connect" False))))
+  (image CON6A
+   (property 
+    (sourcelib "C:\\PROGRAM FILES\\ORCAD\\CAPTURE\\LIBRARY\\CONNECTOR.OLB"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" LP10)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PIN10)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)
+     (Name 3)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" IOP10)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)
+     (Name 4)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PIN10)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname 5)
+     (pintype 4)
+     (Name 5)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N125404)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname 6)
+     (pintype 4)
+     (Name 6)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PIN10)
+     (Order 5)
+     ("Is No Connect" False))))
+  (image "CAP NP"
+   (property 
+    (sourcelib "C:\\PROGRAM FILES\\ORCAD\\CAPTURE\\LIBRARY\\OLDLIBS\\LAYOUT.OLB"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" Vcc)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image "74HC132 (SO14)"
+   (property 
+    (sourcelib "C:\\PROJETS\\RD-20500\\DÉVELOPPEMENT MATÉRIEL\\LIB_ORCAD\\LIBRARY_ANDRE.OLB")
+    ("EMD P/N" "EMD P/N"))
+   (pin 999 1
+    (property 
+     (pinname A_A)
+     (pintype 0)
+     (Name A)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N07170)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname B_A)
+     (pintype 0)
+     (Name B)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N07170)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname Y_A)
+     (pintype 2)
+     (Name Y)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" N071464)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname A_B)
+     (pintype 0)
+     (Name A)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N08806)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname B_B)
+     (pintype 0)
+     (Name B)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N08806)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname Y_B)
+     (pintype 2)
+     (Name Y)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" N087824)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 9
+    (property 
+     (pinname A_C)
+     (pintype 0)
+     (Name A)
+     (Number 9)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N09332)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 10
+    (property 
+     (pinname B_C)
+     (pintype 0)
+     (Name B)
+     (Number 10)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N09332)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 8
+    (property 
+     (pinname Y_C)
+     (pintype 2)
+     (Name Y)
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" N093084)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 12
+    (property 
+     (pinname A_D)
+     (pintype 0)
+     (Name A)
+     (Number 12)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N10474)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 13
+    (property 
+     (pinname B_D)
+     (pintype 0)
+     (Name B)
+     (Number 13)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N10474)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 11
+    (property 
+     (pinname Y_D)
+     (pintype 2)
+     (Name Y)
+     (Number 11)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" N104504)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 14
+    (property 
+     (pinname VCC)
+     (pintype 7)
+     (Name VCC)
+     (Number 14)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" Vcc)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname GND)
+     (pintype 7)
+     (Name GND)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" GND)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image PIC16F18326
+   (property 
+    (sourcelib E:\\LYBRARYES\\LIB_ORCAD\\AN23X.OLB))
+   (pin 999 1
+    (property 
+     (pinname Vdd)
+     (pintype 4)
+     (Name Vdd)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" Vcc)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname RA5)
+     (pintype 4)
+     (Name RA5)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PIN2)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname RA4)
+     (pintype 4)
+     (Name RA4)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PIN3)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname MCLR/RA3)
+     (pintype 4)
+     (Name MCLR/RA3)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PIN4)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname RC5)
+     (pintype 4)
+     (Name RC5)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PIN5)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname RC4)
+     (pintype 4)
+     (Name RC4)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PIN6)
+     (Order 5)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname RC3)
+     (pintype 4)
+     (Name RC3)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PIN7)
+     (Order 6)
+     ("Is No Connect" False)))
+   (pin 999 8
+    (property 
+     (pinname RC2)
+     (pintype 4)
+     (Name RC2)
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PIN8)
+     (Order 7)
+     ("Is No Connect" False)))
+   (pin 999 9
+    (property 
+     (pinname RC1)
+     (pintype 4)
+     (Name RC1)
+     (Number 9)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PIN9)
+     (Order 8)
+     ("Is No Connect" False)))
+   (pin 999 10
+    (property 
+     (pinname RC0)
+     (pintype 4)
+     (Name RC0)
+     (Number 10)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PIN10)
+     (Order 9)
+     ("Is No Connect" False)))
+   (pin 999 11
+    (property 
+     (pinname RA2)
+     (pintype 4)
+     (Name RA2)
+     (Number 11)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PIN11)
+     (Order 10)
+     ("Is No Connect" False)))
+   (pin 999 12
+    (property 
+     (pinname RA1/CSPCLK)
+     (pintype 4)
+     (Name RA1/CSPCLK)
+     (Number 12)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PIN12)
+     (Order 11)
+     ("Is No Connect" False)))
+   (pin 999 13
+    (property 
+     (pinname RA0/ISPDAT)
+     (pintype 4)
+     (Name RA0/ISPDAT)
+     (Number 13)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PIN13)
+     (Order 12)
+     ("Is No Connect" False)))
+   (pin 999 14
+    (property 
+     (pinname Vss)
+     (pintype 4)
+     (Name Vss)
+     (Number 14)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 13)
+     ("Is No Connect" False))))
+  (image CON4A
+   (property 
+    (sourcelib "C:\\PROGRAM FILES\\ORCAD\\CAPTURE\\LIBRARY\\CONNECTOR.OLB"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" IOP4)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)
+     (Name 3)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N20620)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PIN4)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)
+     (Name 4)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PIN4)
+     (Order 3)
+     ("Is No Connect" False))))
+  (image CON14_0
+   (property 
+    (sourcelib E:\\LYBRARYES\\ANDRE\\PROJETS\\IDEAY\\DIP14PIC.DSN))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" Vcc)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" IOP2)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)
+     (Name 3)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" IOP3)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)
+     (Name 4)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" IOP4)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname 5)
+     (pintype 4)
+     (Name 5)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" IOP5)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname 6)
+     (pintype 4)
+     (Name 6)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" IOP6)
+     (Order 5)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname 7)
+     (pintype 4)
+     (Name 7)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" IOP7)
+     (Order 6)
+     ("Is No Connect" False)))
+   (pin 999 8
+    (property 
+     (pinname 8)
+     (pintype 4)
+     (Name 8)
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" IOP8)
+     (Order 7)
+     ("Is No Connect" False)))
+   (pin 999 9
+    (property 
+     (pinname 9)
+     (pintype 4)
+     (Name 9)
+     (Number 9)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" IOP9)
+     (Order 8)
+     ("Is No Connect" False)))
+   (pin 999 10
+    (property 
+     (pinname 10)
+     (pintype 4)
+     (Name 10)
+     (Number 10)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" IOP10)
+     (Order 9)
+     ("Is No Connect" False)))
+   (pin 999 11
+    (property 
+     (pinname 11)
+     (pintype 4)
+     (Name 11)
+     (Number 11)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" IOP11)
+     (Order 10)
+     ("Is No Connect" False)))
+   (pin 999 12
+    (property 
+     (pinname 12)
+     (pintype 4)
+     (Name 12)
+     (Number 12)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PIN12)
+     (Order 11)
+     ("Is No Connect" False)))
+   (pin 999 13
+    (property 
+     (pinname 13)
+     (pintype 4)
+     (Name 13)
+     (Number 13)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PIN13)
+     (Order 12)
+     ("Is No Connect" False)))
+   (pin 999 14
+    (property 
+     (pinname 14)
+     (pintype 4)
+     (Name 14)
+     (Number 14)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 13)
+     ("Is No Connect" False))))
+  (image LED55B/TO_0
+   (property 
+    (sourcelib E:\\LYBRARYES\\ANDRE\\PROJETS\\IDEAY\\DIP14PIC.DSN))
+   (pin 999 2
+    (property 
+     (pinname ANODE)
+     (pintype 4)
+     (Name ANODE)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N164374590)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 1
+    (property 
+     (pinname CATHODE)
+     (pintype 4)
+     (Name CATHODE)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image CON2
+   (property 
+    (sourcelib E:\\LYBRARYES\\LIB_ORCAD\\CONNECTOR.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" Vcc)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N16437414)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image CON2_0
+   (property 
+    (sourcelib E:\\LYBRARYES\\ANDRE\\PROJETS\\IDEAY\\DIP14PIC.DSN))
+   (pin 999 1
+    (property 
+     (pinname "Vin 3-5v")
+     (pintype 4)
+     (Name "Vin 3-5v")
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N16437414)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname GND)
+     (pintype 4)
+     (Name GND)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image CON5_1
+   (property 
+    (sourcelib D:\\ANDRESHEMAS\\PIC12_16_DIP8.DSN))
+   (pin 999 1
+    (property 
+     (pinname MCLR)
+     (pintype 4)
+     (Name MCLR)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PIN4)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname Vcc)
+     (pintype 4)
+     (Name Vcc)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" Vcc)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname GND)
+     (pintype 4)
+     (Name GND)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname ICSPDAT)
+     (pintype 4)
+     (Name ICSPDAT)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PIN13)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname ICSPCLK)
+     (pintype 4)
+     (Name ICSPCLK)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PIN12)
+     (Order 4)
+     ("Is No Connect" False)))))
+ (network
+  (net GND
+    (property 
+     (nettype S))
+   (pins
+     SWPIN2-1 SWPIN2-2 C1-2 SWPIN3-1 SWPIN3-2 C3-2 SWPIN5-1 SWPIN5-2 C5-2
+     SWPIN7-1 SWPIN7-2 SWPIN8-1 SWPIN8-2 SWPIN6-1 SWPIN6-2 C10-2 C7-2 C9-2
+     C4-2 C2-2 SWPIN9-1 SWPIN9-2 SWPIN10-1 SWPIN10-2 C6-2 SWPIN11-1 SWPIN11-2
+     D1-1 SWPIN4/rest-1 SWPIN4/rest-2 C8-2 D3-1 D5-1 D7-1 D9-1 D8-1
+     D4-1 D6-1 D2-1 TP14-1 J1-14 CR2-1 CR5-1 CR8-1 CR11-1
+     CR9-1 CR1-1 CR4-1 CR7-1 CR10-1 CR12-1 CR3-1 CR6-1 C13-2
+     U4-14 C14-2 C12-2 C11-2 D10-1 J3-2 U2-7 C15-2 U1-7
+     C16-2 C17-2 C18-2 R33-1 R34-2 R35-2 C20-2 C19-2 U3-7
+     J4-3 C21-2))
+  (net IOP10
+   (pins
+     CH10-3 J1-10))
+  (net IOP11
+   (pins
+     CH11-3 J1-11))
+  (net IOP2
+   (pins
+     CH2-3 J1-2))
+  (net IOP3
+   (pins
+     CH3-3 J1-3))
+  (net IOP4
+   (pins
+     CH4-1 J1-4))
+  (net IOP5
+   (pins
+     CH5-3 J1-5))
+  (net IOP6
+   (pins
+     CH6-3 J1-6))
+  (net IOP7
+   (pins
+     CH7-3 J1-7))
+  (net IOP8
+   (pins
+     CH8-3 J1-8))
+  (net IOP9
+   (pins
+     CH9-3 J1-9))
+  (net LP10
+   (pins
+     CH10-1 R25-1))
+  (net LP11
+   (pins
+     CH11-1 R21-1))
+  (net LP2
+   (pins
+     CH2-1 R22-1))
+  (net LP3
+   (pins
+     CH3-1 R24-1))
+  (net LP5
+   (pins
+     CH5-1 R26-1))
+  (net LP6
+   (pins
+     CH6-1 R28-1))
+  (net LP7
+   (pins
+     CH7-1 R31-1))
+  (net LP8
+   (pins
+     CH8-1 R29-1))
+  (net LP9
+   (pins
+     CH9-1 R27-1))
+  (net N071464
+   (pins
+     U1-3 CH2-5))
+  (net N07170
+   (pins
+     U1-1 U1-2 SWPIN2-3 SWPIN2-4 C1-1 R2-1))
+  (net N087824
+   (pins
+     U1-6 CH3-5))
+  (net N08806
+   (pins
+     U1-4 U1-5 R7-1 SWPIN3-3 SWPIN3-4 C3-1))
+  (net N093084
+   (pins
+     U1-8 CH5-5))
+  (net N09332
+   (pins
+     U1-9 U1-10 SWPIN5-3 SWPIN5-4 R13-1 C5-1))
+  (net N104504
+   (pins
+     U1-11 CH6-5))
+  (net N10474
+   (pins
+     U1-12 U1-13 SWPIN6-3 SWPIN6-4 C7-1 R19-1))
+  (net N106844
+   (pins
+     U2-3 CH7-5))
+  (net N10708
+   (pins
+     SWPIN7-3 SWPIN7-4 U2-1 U2-2 R23-1 C9-1))
+  (net N109024
+   (pins
+     CH8-5 U2-6))
+  (net N10926
+   (pins
+     R30-1 SWPIN8-3 SWPIN8-4 U2-4 U2-5 C10-1))
+  (net N123064
+   (pins
+     U2-8 CH9-5))
+  (net N12330
+   (pins
+     U2-9 U2-10 C2-1 SWPIN9-3 SWPIN9-4 R3-1))
+  (net N125404
+   (pins
+     U2-11 CH10-5))
+  (net N12564
+   (pins
+     C4-1 SWPIN10-3 SWPIN10-4 R8-1 U2-12 U2-13))
+  (net N127584
+   (pins
+     CH11-5 U3-3))
+  (net N12782
+   (pins
+     R14-1 C6-1 U3-1 U3-2 SWPIN11-3 SWPIN11-4))
+  (net N138041
+   (pins
+     D1-2 R22-2))
+  (net N16437414
+   (pins
+     J2-2 J3-1))
+  (net N164374590
+   (pins
+     D10-2 R32-2))
+  (net N164597350
+   (pins
+     U3-12 R34-1))
+  (net N164597351
+   (pins
+     U3-13 R35-1))
+  (net N16459777
+   (pins
+     U3-11 R33-2))
+  (net N19482
+   (pins
+     R20-1 SWPIN4/rest-3 SWPIN4/rest-4 U3-9 U3-10 C8-1))
+  (net N19582
+   (pins
+     U3-8 U3-4 U3-5))
+  (net N20620
+   (pins
+     CH4-3 U3-6))
+  (net N218701
+   (pins
+     R24-2 D3-2))
+  (net N220821
+   (pins
+     R26-2 D5-2))
+  (net N221221
+   (pins
+     R28-2 D7-2))
+  (net N223061
+   (pins
+     D9-2 R31-2))
+  (net N240240
+   (pins
+     R21-2 D2-2))
+  (net N240640
+   (pins
+     D4-2 R25-2))
+  (net N241040
+   (pins
+     D6-2 R27-2))
+  (net N241440
+   (pins
+     D8-2 R29-2))
+  (net N25583
+   (pins
+     TP2-1 R1-1))
+  (net N25671
+   (pins
+     R4-1 TP3-1))
+  (net N25751
+   (pins
+     TP4-1 R5-1))
+  (net N25831
+   (pins
+     R9-1 TP5-1))
+  (net N25911
+   (pins
+     TP6-1 R11-1))
+  (net N25991
+   (pins
+     TP7-1 R15-1))
+  (net N26071
+   (pins
+     R17-1 TP8-1))
+  (net N26311
+   (pins
+     TP13-1 R6-1))
+  (net N26391
+   (pins
+     TP12-1 R10-1))
+  (net N26471
+   (pins
+     R12-1 TP11-1))
+  (net N26551
+   (pins
+     TP9-1 R16-1))
+  (net N26631
+   (pins
+     PIN10-1 R18-1))
+  (net PIN10
+   (pins
+     CH10-2 CH10-4 CH10-6 R16-2 CR5-3 U4-10))
+  (net PIN11
+   (pins
+     CH11-2 CH11-4 CH11-6 R12-2 CR2-3 U4-11))
+  (net PIN12
+   (pins
+     R10-2 J1-12 CR6-3 U4-12 J4-5))
+  (net PIN13
+   (pins
+     R6-2 J1-13 CR9-3 U4-13 J4-4))
+  (net PIN2
+   (pins
+     CH2-2 CH2-4 CH2-6 R1-2 CR3-3 U4-2))
+  (net PIN3
+   (pins
+     CH3-2 CH3-4 CH3-6 R4-2 CR1-3 U4-3))
+  (net PIN4
+   (pins
+     CH4-2 CH4-4 R5-2 CR4-3 U4-4 J4-1 R36-1 C21-1))
+  (net PIN5
+   (pins
+     CH5-2 CH5-4 CH5-6 R9-2 CR7-3 U4-5))
+  (net PIN6
+   (pins
+     CH6-2 CH6-4 CH6-6 R11-2 CR10-3 U4-6))
+  (net PIN7
+   (pins
+     CH7-2 CH7-4 CH7-6 R15-2 CR12-3 U4-7))
+  (net PIN8
+   (pins
+     CH8-2 CH8-4 CH8-6 R17-2 CR11-3 U4-8))
+  (net PIN9
+   (pins
+     CH9-2 CH9-4 CH9-6 R18-2 CR8-3 U4-9))
+  (net VCC
+    (property 
+     (nettype S))
+   (pins
+     R2-2 R7-2 R13-2 R30-2 R23-2 R19-2 R14-2 R3-2 R8-2
+     R20-2 TP1-1 J1-1 CR2-2 CR5-2 CR8-2 CR11-2 CR9-2 CR1-2
+     CR4-2 CR7-2 CR10-2 CR12-2 CR3-2 CR6-2 C13-1 U4-1 C14-1
+     C12-1 C11-1 J2-1 R32-1 U2-14 C15-1 U1-14 C16-1 C17-1
+     C18-1 C20-1 C19-1 U3-14 J4-2 R36-2)))
+)
