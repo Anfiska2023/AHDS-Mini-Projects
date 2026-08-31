@@ -1,0 +1,621 @@
+(PCB SO8I2CUART
+ (description
+  (timeStamp "2024 10 18 14 15 34")
+  (program "CAPTURE.EXE" (Version "23.1-2023"))
+  (source "Original data from OrCAD/CAPTURE schematic")
+  (title "")
+  (date "Wednesday, October 09, 2024")
+  (document "D:\\PROJETS24\\UARTI2C_COM\\SO8I2CUART.DSN")
+  (revision "")
+  (organization "")
+  (address1 "")
+  (address2 "")
+  (address3 "")
+  (address4 "")
+  (partvaluecombine "{Value}")
+  (pcbfootprintcombine "{PCB Footprint}"))
+ (structure )
+ (placement
+  (component LED
+   (place D2
+    (property 
+     (timestamp 00EF9BF7)
+     ("Source Package" LED)
+     (Value SystemTick)
+     ("PCB Footprint" 1206))))
+  (component CON4_7
+   (place J1
+    (property 
+     (timestamp 00EFAD96)
+     ("Source Package" CON4_7)
+     (Value POWER)
+     ("PCB Footprint" MOLEX_SL_4P))))
+  (component CAP
+   (place C1
+    (property 
+     (timestamp 00EF9C81)
+     ("Source Package" CAP)
+     (Value 100nF)
+     ("PCB Footprint" 0805))))
+  (component CON6_2
+   (place J3
+    (property 
+     (timestamp 00EFBA69)
+     ("Source Package" CON6_2)
+     (Value "I2C CONNECTIONS")
+     ("PCB Footprint" IDC6P))))
+  (component RES
+   (place R1
+    (property 
+     (timestamp 00EFB976)
+     ("Source Package" RES)
+     (Value 10K)
+     ("PCB Footprint" 0805)))
+   (place R2
+    (property 
+     (timestamp 00EFB9AD)
+     ("Source Package" RES)
+     (Value 10K)
+     ("PCB Footprint" 0805)))
+   (place R3
+    (property 
+     (timestamp 00EF9C07)
+     ("Source Package" RES)
+     (Value 3K)
+     ("PCB Footprint" 0805)))
+   (place R4
+    (property 
+     (timestamp 00EFB941)
+     ("Source Package" RES)
+     (Value 0R)
+     ("PCB Footprint" 0402)))
+   (place R5
+    (property 
+     (timestamp 00EFB8F1)
+     ("Source Package" RES)
+     (Value 0R)
+     ("PCB Footprint" 0402)))
+   (place R6
+    (property 
+     (timestamp 00EFB912)
+     ("Source Package" RES)
+     (Value 0R)
+     ("PCB Footprint" 0402))))
+  (component "SW DIP-5_2"
+   (place SW1
+    (property 
+     (timestamp 00EFB38C)
+     ("Source Package" "SW DIP-5_2")
+     (Value Options)
+     ("PCB Footprint" DIPSW5POS))))
+  (component CON4_8
+   (place J2
+    (property 
+     (timestamp 00EFA379)
+     ("Source Package" CON4_8)
+     (Value "ST-LINK/USART")
+     ("PCB Footprint" MOLEX_SL_5P))))
+  (component STM32G031J6Mx_1
+   (place U1
+    (property 
+     (timestamp 0000004A)
+     ("Source Package" STM32G031J6Mx_1)
+     (Value STM32G031J6Mx)
+     ("PCB Footprint" SO8)))))
+ (library
+  (image STM32G031J6Mx_1
+   (property 
+    (sourcelib D:\\PROJETS24\\UARTI2C_COM\\SO8I2CUART.DSN))
+   (pin 999 1
+    (property 
+     (pinname PC14)
+     (pintype 4)
+     (Name PC14)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N15704838)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname Vdd)
+     (pintype 4)
+     (Name Vdd)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" +3.3V)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname Vss)
+     (pintype 4)
+     (Name Vss)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname PF2)
+     (pintype 4)
+     (Name PF2)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N15702982)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname PB0)
+     (pintype 4)
+     (Name PB0)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" SCL)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname PA12)
+     (pintype 4)
+     (Name PA12)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" SDA)
+     (Order 5)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname PA13)
+     (pintype 4)
+     (Name PA13)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N15702723)
+     (Order 6)
+     ("Is No Connect" False)))
+   (pin 999 8
+    (property 
+     (pinname PA14)
+     (pintype 4)
+     (Name PA14)
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N15702705)
+     (Order 7)
+     ("Is No Connect" False))))
+  (image RES
+   (property 
+    (sourcelib "C:\\PROGRAM FILES\\ORCAD\\CAPTURE\\LIBRARY\\OLDLIBS\\PSPICE.OLB"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N15710647)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" +3.3V)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image CAP
+   (property 
+    (sourcelib "C:\\PROGRAM FILES\\ORCAD\\CAPTURE\\LIBRARY\\OLDLIBS\\PSPICE.OLB"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" +3.3V)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image CON4_7
+   (property 
+    (sourcelib D:\\PROJETS24\\UARTI2C_COM\\SO8I2CUART.DSN))
+   (pin 999 1
+    (property 
+     (pinname VinPOWER)
+     (pintype 4)
+     (Name VinPOWER)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" VinPOWER)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 12v)
+     (pintype 4)
+     (Name 12v)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" 12V)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname 3.3V)
+     (pintype 4)
+     (Name 3.3V)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" +3.3V)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname GND)
+     (pintype 4)
+     (Name GND)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 3)
+     ("Is No Connect" False))))
+  (image CON4_8
+   (property 
+    (sourcelib D:\\PROJETS24\\UARTI2C_COM\\SO8I2CUART.DSN))
+   (pin 999 1
+    (property 
+     (pinname 3.3V)
+     (pintype 4)
+     (Name 3.3V)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" +3.3V)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname SWCLK)
+     (pintype 4)
+     (Name SWCLK)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N15702705)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname SWDIO)
+     (pintype 4)
+     (Name SWDIO)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N15702723)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname GND)
+     (pintype 4)
+     (Name GND)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname RX)
+     (pintype 4)
+     (Name RX)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N15704838)
+     (Order 4)
+     ("Is No Connect" False))))
+  (image CON6_2
+   (property 
+    (sourcelib D:\\PROJETS24\\UARTI2C_COM\\SO8I2CUART.DSN))
+   (pin 999 1
+    (property 
+     (pinname 3.3V)
+     (pintype 4)
+     (Name 3.3V)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N15710202)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname SCL)
+     (pintype 4)
+     (Name SCL)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" SCL)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname 12v)
+     (pintype 4)
+     (Name 12v)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N15710206)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname SDA)
+     (pintype 4)
+     (Name SDA)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" SDA)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname VinPOWER)
+     (pintype 4)
+     (Name VinPOWER)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N15710210)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname GND)
+     (pintype 4)
+     (Name GND)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 5)
+     ("Is No Connect" False))))
+  (image LED
+   (property 
+    (sourcelib D:\\PARTSWIN\\CADENCE\\SPB_23.1\\TOOLS\\CAPTURE\\LIBRARY\\DISCRETE.OLB))
+   (pin 999 2
+    (property 
+     (pinname ANODE)
+     (pintype 4)
+     (Name ANODE)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N15703063)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 1
+    (property 
+     (pinname CATHODE)
+     (pintype 4)
+     (Name CATHODE)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image "SW DIP-5_2"
+   (property 
+    (sourcelib D:\\PROJETS24\\UARTI2C_COM\\SO8I2CUART.DSN))
+   (pin 999 1
+    (property 
+     (pinname A1)
+     (pintype 4)
+     (Name A1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N15710643)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname A2)
+     (pintype 4)
+     (Name A2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N15710647)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname A3)
+     (pintype 4)
+     (Name A3)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N15710651)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname A4)
+     (pintype 4)
+     (Name A4)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N15710655)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname A5)
+     (pintype 4)
+     (Name A5)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N15710659)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 10
+    (property 
+     (pinname B1)
+     (pintype 4)
+     (Name B1)
+     (Number 10)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" SDA)
+     (Order 5)
+     ("Is No Connect" False)))
+   (pin 999 9
+    (property 
+     (pinname B2)
+     (pintype 4)
+     (Name B2)
+     (Number 9)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" SCL)
+     (Order 6)
+     ("Is No Connect" False)))
+   (pin 999 8
+    (property 
+     (pinname B3)
+     (pintype 4)
+     (Name B3)
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N15710202)
+     (Order 7)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname B4)
+     (pintype 4)
+     (Name B4)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N15710206)
+     (Order 8)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname B5)
+     (pintype 4)
+     (Name B5)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N15710210)
+     (Order 9)
+     ("Is No Connect" False)))))
+ (network
+  (net +3.3V
+    (property 
+     (nettype S))
+   (pins
+     U1-2 C1-2 J2-1 J1-3 R4-2 R1-2 R2-2))
+  (net 12V
+    (property 
+     (nettype S))
+   (pins
+     J1-2 R6-2))
+  (net GND
+    (property 
+     (nettype S))
+   (pins
+     U1-3 D2-1 C1-1 J2-4 J1-4 J3-6))
+  (net N15702705
+   (pins
+     U1-8 J2-2))
+  (net N15702723
+   (pins
+     U1-7 J2-3))
+  (net N15702982
+   (pins
+     U1-4 R3-2))
+  (net N15703063
+   (pins
+     R3-1 D2-2))
+  (net N15704838
+   (pins
+     U1-1 J2-5))
+  (net N15710202
+   (pins
+     SW1-8 J3-1))
+  (net N15710206
+   (pins
+     SW1-7 J3-3))
+  (net N15710210
+   (pins
+     SW1-6 J3-5))
+  (net N15710643
+   (pins
+     SW1-1 R2-1))
+  (net N15710647
+   (pins
+     SW1-2 R1-1))
+  (net N15710651
+   (pins
+     SW1-3 R4-1))
+  (net N15710655
+   (pins
+     SW1-4 R6-1))
+  (net N15710659
+   (pins
+     SW1-5 R5-1))
+  (net SCL
+   (pins
+     U1-5 SW1-9 J3-2))
+  (net SDA
+   (pins
+     U1-6 SW1-10 J3-4))
+  (net VINPOWER
+    (property 
+     (nettype S))
+   (pins
+     J1-1 R5-2)))
+)

@@ -1,0 +1,22 @@
+  Revised: Wednesday, October 09, 2024
+          Revision: 
+
+
+
+
+
+
+
+Bill Of Materials        October 18,2024      10:15:29	Page1
+
+Item	Quantity	Reference	Footprint
+______________________________________________
+
+1	4	R1,C1,R2,R3	0805
+2	1	D2	1206
+3	1	J1	MOLEX_SL_4P
+4	1	J2	MOLEX_SL_5P
+5	1	J3	IDC6P
+6	3	R4,R5,R6	0402
+7	1	SW1	DIPSW5POS
+8	1	U1	SO8
