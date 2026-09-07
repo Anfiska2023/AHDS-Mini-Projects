@@ -1,0 +1,21 @@
+  Revised: Friday, October 11, 2024
+          Revision: 
+
+
+
+
+
+
+
+Bill Of Materials        October 11,2024      13:04:07	Page1
+
+Item	Quantity	Reference	Footprint
+______________________________________________
+
+1	4	C3,C4,R5,C5	0805
+2	1	J1	MOLEX_SL_5P
+3	1	J2	MOLEX_SL_2PC
+4	1	J3	MOLEX_SL_8P
+5	1	J4	MOLEX_SL_14P
+6	1	RESET	SWITCH-FSM
+7	1	U2	RN2903

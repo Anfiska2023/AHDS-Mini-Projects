@@ -1,0 +1,22 @@
+Modul RF  Revised: Monday, March 03, 2025
+rn2903A_E3.dsn          Revision: 
+
+
+
+
+
+
+
+Bill Of Materials          March 5,2025      9:04:36	Page1
+
+Item	Quantity	Reference	Footprint
+______________________________________________
+
+1	10	R1,C1,R2,C2,R3,C3,R4,C4,	0603
+		C5,C6
+2	1	J1	MOLEX_SL_5P
+3	2	J2,J10	MOLEX_SL_2P
+4	12	J3,J4,J5,J6,J7,J8,J9,J11,	CON1PIN
+		J12,J13,J14,J15
+5	1	U1	RN2903
+6	3	U2,U3,U4	SO8
