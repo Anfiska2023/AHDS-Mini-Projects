@@ -1,0 +1,27 @@
+connect '/C=5'
+
+sendln "sys get ver"
+wait "RN2903"
+pause 500
+
+sendln "mac pause"
+wait "429496"
+pause 500
+
+sendln "radio set freq 915000000"
+wait "ok"
+pause 500
+
+sendln "radio set sf sf7"
+wait "ok"
+pause 500
+
+sendln "radio set bw 125"
+wait "ok"
+pause 500
+
+sendln "radio set crc on"
+wait "ok"
+pause 500
+
+sendln "radio rx 0"

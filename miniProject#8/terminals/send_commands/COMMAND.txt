@@ -1,0 +1,3 @@
+sys get ver
+mac pause
+radio set freq 915000000

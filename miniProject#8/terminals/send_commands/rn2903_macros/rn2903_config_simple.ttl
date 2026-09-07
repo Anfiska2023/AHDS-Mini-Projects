@@ -1,0 +1,29 @@
+sendln "sys get ver"
+pause 1000
+
+sendln "mac pause"
+pause 1000
+
+sendln "radio set freq 915000000"
+pause 1000
+
+sendln "radio set sf sf7"
+pause 1000
+
+sendln "radio set bw 125"
+pause 1000
+
+sendln "radio set crc on"
+pause 1000
+
+sendln "radio get freq"
+pause 1000
+
+sendln "radio get sf"
+pause 1000
+
+sendln "radio get bw"
+pause 1000
+
+sendln "radio get crc"
+pause 1000
